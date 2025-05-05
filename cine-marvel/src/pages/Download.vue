@@ -22,7 +22,7 @@
   const filmes = [
     { id: 1, titulo: 'Vingadores: Ultimato', imagem: '/src/assets/ultimato.jpg' },
     { id: 2, titulo: 'Homem-Aranha: Sem Volta Para Casa', imagem: '/src/assets/spiderman.jpg' },
-    { id: 3, titulo: 'Pantera Negra: Wakanda Para Sempre', imagem: '/src/assets/wakanda.jpg' }
+    { id: 3, titulo: 'Pantera Negra: Wakanda Para Sempre', imagem: '/src/assets/panteranegra.jpg' }
   ]
   
   function baixar(nome) {

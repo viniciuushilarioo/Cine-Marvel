@@ -1,7 +1,7 @@
 <template>
     <div class="home">
       <div class="hero">
-        <img src="/logo.png" alt="Logo" />
+        <img src="../assets/logo.png" alt="Logo Cine Marvel" />
         <h1>Bem-vindo ao Cine Marvel</h1>
         <p>Assista, baixe e compre os maiores sucessos da Marvel em alta definição.</p>
       </div>
@@ -18,11 +18,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   
   .hero {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(71, 2, 2, 0.7);
     padding: 40px;
     border-radius: 15px;
   }

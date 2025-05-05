@@ -40,7 +40,7 @@
     },
     3: {
       titulo: 'Pantera Negra: Wakanda Para Sempre',
-      imagem: '/src/assets/wakanda.jpg',
+      imagem: '/src/assets/panteranegra.jpg',
       descricao: 'Wakanda enfrenta novas ameaças após a morte do rei T’Challa.'
     }
   }

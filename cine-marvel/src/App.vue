@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="app-container">
     <header>
-      <img src="./assets/logo.png" alt="Cine Marvel" class="logo" />
+      <img src="../assets/logo.png" alt="Logo Cine Marvel" />
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/categorias">Categorias</RouterLink>
