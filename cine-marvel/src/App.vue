@@ -1,7 +1,6 @@
 <template>
   <div id="app" class="app-container">
     <header>
-      <img src="../assets/logo.png" alt="Logo Cine Marvel" />
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/categorias">Categorias</RouterLink>
@@ -52,5 +51,90 @@ a {
 
 a.router-link-exact-active {
   border-bottom: 2px solid red;
+}
+
+/* Estilos para telas maiores (desktop) */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header img {
+  width: 150px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+main {
+  padding: 40px;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  header img {
+    width: 120px;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    margin: 10px;
+  }
+
+  main {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header img {
+    width: 100px;
+    margin-bottom: 15px;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 5px;
+  }
+
+  main {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  header img {
+    width: 80px;
+  }
+
+  nav a {
+    font-size: 12px;
+  }
+
+  main {
+    padding: 10px;
+    text-align: center;
+  }
 }
 </style>
