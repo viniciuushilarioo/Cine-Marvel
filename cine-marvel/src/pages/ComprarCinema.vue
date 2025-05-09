@@ -27,13 +27,13 @@
       id: 10,
       titulo: 'Thunderbolts',
       imagem: '/src/assets/Thunderbolts.jpg',
-      preco: 29.90
+      preco: 29.99
     },
     {
       id: 11,
       titulo: 'Vingadores: Doomsday',
       imagem: '/src/assets/Doomsday.jpg',
-      preco: 34.90
+      preco: 34.99
     }
   ]
   

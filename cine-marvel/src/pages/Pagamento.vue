@@ -45,7 +45,7 @@
     processando.value = true
     mensagem.value = ''
     setTimeout(() => {
-      mensagem.value = `Pagamento de R$ ${preco.value} para "${titulo.value}" realizado com sucesso via ${metodo.value.toUpperCase()}!`
+      mensagem.value = `Pagamento de R$25,99 ${preco.value} para " marvel.pix " realizado com sucesso via ${metodo.value.toUpperCase()}!`
       processando.value = false
     }, 2500)
   }
