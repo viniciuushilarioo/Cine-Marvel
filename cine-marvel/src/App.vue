@@ -53,7 +53,6 @@ a.router-link-exact-active {
   border-bottom: 2px solid red;
 }
 
-/* Estilos para telas maiores (desktop) */
 body {
   font-family: Arial, sans-serif;
   background-color: #121212;
@@ -80,7 +79,6 @@ main {
   padding: 40px;
 }
 
-/* Responsividade para telas menores */
 @media (max-width: 1024px) {
   header {
     flex-direction: column;

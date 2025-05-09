@@ -26,7 +26,6 @@
   const route = useRoute()
   const nota = ref(0)
   
-  // Simulação de dados por ID
   const filmes = {
     1: {
       titulo: 'Vingadores: Ultimato',

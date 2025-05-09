@@ -27,14 +27,14 @@
   padding: 40px;
   border-radius: 15px;
   max-width: 90%;
-  width: 600px; /* Tamanho máximo do container */
+  width: 600px; 
 }
 
 .logo {
   width: 250px;
   margin-bottom: 20px;
   max-width: 100%;
-  height: auto; /* Garantir que o logo seja proporcional */
+  height: auto;
 }
 
 h1 {
